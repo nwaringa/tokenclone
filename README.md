@@ -3,6 +3,10 @@
 
 A small Golang utility to clone a GitHub repository using Github app credentials.
 
+## Requirements
+
+You need to have a [Github App](https://docs.github.com/en/apps/creating-github-apps) built and deployed to the repos you want to clone. Do that first.
+
 ## Build
 
 - Clone repo
@@ -12,10 +16,6 @@ A small Golang utility to clone a GitHub repository using Github app credentials
     - Linux arm build option ```make compile-linux```   
     - Windows build option ```make compile-windows```
 - Your binary to run is in bin/
-
-## Requirements
-
-You need to have a [Github App](https://docs.github.com/en/apps/creating-github-apps) built and deployed to the repos you want to clone. Do that first.
 
 ## Usage
 
