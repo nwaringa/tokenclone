@@ -1,6 +1,6 @@
 # tokenclone
 
-![Alt text](assets/Octocatopher.png "Octocatopher")
+![Alt text]([assets/Octocatopher.png](https://github.com/nwaringa/tokenclone/blob/main/assets/octocatopher.png) "Octocatopher")
 
 A small Golang utility to clone a GitHub repository using Github app credentials.
 
