@@ -3,6 +3,11 @@
 
 A small Golang utility to clone a GitHub repository using Github app credentials.
 
+### Where is this helpful?
+
+You can use this in a bunch of ways. One example of a use for this is Ansible Tower which currently is limited to using PATs for its Github integration. PATs and things like service account users both overscope access as well as allow long aged tokens, by using this utility you can avoid that.
+
+
 ## Requirements
 
 You need to have a [Github App](https://docs.github.com/en/apps/creating-github-apps) built and deployed to the repos you want to clone. Do that first.
@@ -30,7 +35,3 @@ Windows:<br>
 ## Help
 
 ```./tokenclone --help```
-
-## Where is this helpful?
-
-You can use this in a bunch of ways. One example of a use for this is Ansible Tower which currently is limited to using PATs for its Github integration. PATs and things like service account users both overscope access as well as allow long aged tokens, by using this utility you can avoid that.
