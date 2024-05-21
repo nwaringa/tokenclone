@@ -20,6 +20,8 @@ You need to have a [Github App](https://docs.github.com/en/apps/creating-github-
 
 ## Usage
 
+Warning: Your App ID is semi-sensitive information and your key (.pem file) is private and is definately sensitive. If you build this into a workflow, be sure to pickup these details in a secure manner.
+
 Linux/OS X:<br>
 ```./tokenclone --app_id <id> --pem_path <path to your pem> --repo_url <git repo, https clone link>, and --clone_dir <directory to clone to>```
 
